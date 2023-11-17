@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+*{
+    padding: 0; 
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    font-weight: 400;
+    /* color: #333; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    font-size: 19px;
+}
+
+.header-left {
+    margin-left: 22px;
+    display: flex;
+    align-items: center
+}
+.header-right{
+    margin-right: 14px;
+}
+
+.logo img {
+    height: 40px; /* Adjust as needed */
+    margin-right: 10px;
+}
+
+.logo h1 {
+    display: inline-block;
+    font-size: 20px; /* Adjust as needed */
+}
+
+.header-right ul {
+    list-style-type: none;
+}
+
+.header-right ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.header-right ul li:last-child {
+    margin-right: 0;
+}
+
+.header-right ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.footer-left img,
+.footer-right img {
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+/* ---------------------------------Containers-------------------------------------------------------------------------------- */
+
+/* Existing CSS remains unchanged */
+
+/* Updated CSS for Container 1 */
+
+     /* CSS for container1 */
+     .container1 {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 18px;
+        margin-top: 70px
+    }
+    
+    .content-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f9f9f9;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .intro {
+        width: 54%;
+        margin-left: 19px
+    }
+    
+    .profile-pic {
+        height: 459px;
+        width: 280px;
+        background-color: white;
+        border-radius: 7px;
+        margin-right: 32px;
+    }
+    
+    .profile-pic img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        padding: 11px;
+        border-radius: 16px;
+       
+    }
+
+
+
+  /* ---------------------------------------------container 2------------------------------------------ */
+
+
+.container2 .projects {
+    max-width: 80%;
+    margin: 15px auto;
+    padding: 4px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 36px;
+}
+
+.project-box {
+    width: calc(33% - 9px);
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-box .project-image {
+    text-align: center;
+}
+
+.project-box .project-image img {
+    height: 63%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    padding: 0px;
+    border-radius: 6px
+}
+
+.project-box .project-details {
+    margin-top: 15px;
+}
+
+.project-box .project-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* -----------------------------------------------------------------container 3 ----------------------------------------- */
+
+
+
+.container3 .tools {
+    max-width: 80%;
+    margin: 15px auto;
+    padding: 4px;
+}
+
+.tool-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 36px;
+}
+
+.tool {
+    width: calc(23% - 13px);
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tool .tool-image {
+    text-align: center;
+}
+
+.tool .tool-image img {
+    height: 63%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    padding: 0px;
+    border-radius: 6px
+}
+
+.tool .tool-details {
+    margin-top: 15px;
+}
+
+.tool .tool-details h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* ----------------------------------------------------------------container4------------------------------- */
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 89%;
+    margin-left:60px
+}
+
+.contact-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contact-image img {
+    height: 59%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    padding: 0px;
+    border-radius: 7px
+}
+
+.contact-details {
+    flex: 2;
+}
+
+.contact-details h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.contact-details form {
+    display: flex;
+    flex-direction: column;
+    max-width: 83%;
+    margin-left: 53px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box input,
+.input-box textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    resize: vertical;
+}
+
+.input-box input[type="submit"] {
+    background-color: cornflowerblue;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+
+.input-box input[type="submit"]:hover {
+    background-color: #3455a9;
+}
+
+/* Additional styling for placeholders */
+input::placeholder,
+textarea::placeholder {
+    color: #999;
+}
+
+/* Optional: Focus styles for inputs */
+.input-box input:focus,
+.input-box textarea:focus {
+    outline: none;
+    border-color: #3455a9;
+    box-shadow: 0 0 5px rgba(52, 85, 169, 0.5);
+}
+
+
+
+
+
+
+
+/* --------------------------------------------Typography--------------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 36px;
+    /* Additional styles for h1 if needed */
+}
+
+h2 {
+    font-size: 28px;
+    /* Additional styles for h2 if needed */
+}
+
+h3 {
+    font-size: 24px;
+    /* Additional styles for h3 if needed */
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    /* Additional styles for paragraphs if needed */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------Media Queries for Responsiveness-------------------------------------------------- */
+@media screen and (max-width: 768px) {
+    header {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .logo img {
+        height: 30px;
+    }
+
+    .logo h1 {
+        font-size: 18px;
+    }
+
+    .header-right ul li {
+        display: none;
+    }
+
+    .footer-left img,
+    .footer-right img {
+        height: 25px;
+    } 
+
+
+    .header-right ul {
+        display: none;
+    }
+
+} 
+
+
+@media screen and (max-width: 768px) {
+    .project-box {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .profile-pic {
+        max-width: 100%;
+    }
+}
+
+/* Media query for smaller mobile devices */
+@media screen and (max-width: 480px) {
+    .intro {
+        font-size: 16px;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    footer {
+        padding: 8px;
+    }
+
+    .footer-left img,
+    .footer-right img {
+        height: 25px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .tool {
+        width: calc(48% - 10px); /* Two tools per row */
+        margin-bottom: 15px;
+    }
+}
+
+/* Media query for smaller mobile devices */
+@media screen and (max-width: 480px) {
+    .tool {
+        width: calc(100% - 20px); /* Single tool per row */
+        margin-bottom: 15px;
+    }
+}
